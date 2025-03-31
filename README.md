@@ -67,15 +67,17 @@ Isso irá subir:
 **POST** `http://localhost:8081/users`
 ```json
 {
-  "nome": "João Silva",
-  "email": "joao@email.com",
+  "nome": { "nome": "João Silva" },
+  "email": { "email": "joao@email.com" },
   "senha": "123456",
-  "telefone": "11987654321",
-  "rua": "Rua das Flores",
-  "numero": "123",
-  "cidade": "São Paulo",
-  "cep": "01010-010",
-  "cpf": "12345678901",
+  "telefone": { "telefone": "11987654321" },
+  "endereco": {
+    "rua": "Rua das Flores",
+    "numero": "123",
+    "cidade": "São Paulo",
+    "cep": "01010-010"  
+  },
+  "cpf": { "cpf": "12345678901" },
   "dataNascimento": "1990-05-15",
   "dataCadastro": "2025-03-30"
 }
