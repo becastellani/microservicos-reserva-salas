@@ -1,6 +1,6 @@
 package com.reservaservice.demo.infrastructure.controller;
 
-import com.reservaservice.demo.application.model.Reserva;
+import com.reservaservice.demo.domain.model.Reserva;
 import com.reservaservice.demo.application.service.ReservaService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;

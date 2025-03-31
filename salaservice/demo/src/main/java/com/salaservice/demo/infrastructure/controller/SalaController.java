@@ -1,6 +1,6 @@
 package com.salaservice.demo.infrastructure.controller;
 
-import com.salaservice.demo.application.model.Sala;
+import com.salaservice.demo.domain.model.Sala;
 import com.salaservice.demo.application.service.SalaService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;

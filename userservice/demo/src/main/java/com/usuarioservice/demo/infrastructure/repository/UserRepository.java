@@ -1,6 +1,6 @@
 package com.usuarioservice.demo.infrastructure.repository;
 
-import com.usuarioservice.demo.application.model.User;
+import com.usuarioservice.demo.domain.model.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.Optional;

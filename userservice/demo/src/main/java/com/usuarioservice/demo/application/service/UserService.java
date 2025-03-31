@@ -1,6 +1,6 @@
 package com.usuarioservice.demo.application.service;
 
-import com.usuarioservice.demo.application.model.User;
+import com.usuarioservice.demo.domain.model.User;
 import com.usuarioservice.demo.infrastructure.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
